@@ -1,0 +1,275 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(245, 240, 240)!important;
+    /* height: 200vh; */
+}
+
+.header{
+   width: 100%; 
+   height: 100vh;
+   position: relative;
+}
+
+.text_container{
+  display: flex;
+  align-items: center;
+  justify-content:space-between ;
+}
+
+.nav_bar_top{
+    background-color: #fcf6f6;
+    width: 100%;
+    height: 16vh;
+    padding: 26px;
+}
+
+.text_content{
+    display: flex;
+}
+
+.para_text{
+    margin-bottom:0px;
+    font-size: 17px;
+    color: rgba(0,0,0,0.589);
+    font-weight: 500;
+    margin: 0px 4px;
+}
+
+.span_text{
+  padding: 0px 6px;
+
+}
+
+.icon_social{
+   color: rgb( 224, 0, 0); 
+   font-size: 21px;
+   padding: 0px 5px;
+   margin:0px 7px;
+   cursor: pointer;
+}
+
+.icon_social:hover{
+    color: rgb(117, 6, 6);
+}
+
+.navbar_container{
+    position: absolute;
+    top: 70px;
+    left: 52px;
+    width: 90%;
+    background-color: white;
+    padding: 16px 38px;
+    z-index: 55;
+}
+
+.heading_logo{
+    font-size: 38px;
+    font-weight:700;
+    text-transform: uppercase;
+    margin-bottom:0px;
+}
+
+.heading_logo span{
+    color: rgb(233, 154,8);
+}
+
+.nav-item .nav-link{
+   /* color: rgba(8,8,8,0.685); */
+   text-transform: uppercase;
+   font-weight:600;
+   font-size: 14px;
+}
+
+.navbar-light .navbar-nav .nav-link:hover {
+    color: rgba(255, 102, 0, 0.911) !important;
+}
+
+.home_section{
+    width: 100%;
+    z-index: 1;
+    height: 84%;
+
+}
+.home_content{
+  width: 100%;
+  height: 84vh;
+  background-position:right;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  z-index: -55;
+
+}
+.img-1 {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('./images/hero_img.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+
+.img-2 {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('./images/hero_img_2.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.content_home{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: white;
+}
+.heading_home{
+    font-size: 26px;
+    font-weight: 600;
+    margin-bottom:22px;
+}
+.heading_lg_home{
+    font-size: 70px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    margin: 10px 0px;
+}
+.icon_scroll{
+    color: #fff;
+    background-color: #212121;
+    border-color: #212121;
+    padding: 12px;
+    font-size: 20px;
+}
+
+.selection{
+    width: 90%;
+    height: 20vh;
+    background-color: rgb(255, 250, 250);
+    position: relative;
+    bottom: -80px;
+    left: 52px;
+    padding: 0px 26px;
+    margin-top: -150px;
+    z-index: 99;
+    box-shadow: 2px 2px 14px rgb(145, 142, 142);
+
+}
+
+.selection_container{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+}
+
+.boxes{
+    padding: 14px 20px;
+    width: 180px;
+    margin: 0px 10px;
+    outline: none;
+}
+
+.select-btn{
+     display: inline-block;
+     padding: 14px 30px;
+     background-color: rgb(209, 95, 2);
+     text-decoration: none;
+     color: white;
+     font-size: 16px;
+     font-size: 600;
+     margin: 0px 10px;
+     transition: 0.3s ease-in;
+
+}
+
+.select-btn:hover{
+    background-color: rgb(206, 176, 2);
+}
+
+
+
+.about{
+    width: 100%;
+    height: 100vh;
+    margin-top: 120px;
+}
+
+.heading_about{
+    color: #000;
+    display: block;
+    font-size: 37px;
+    font-weight: 700;
+    line-height: 50px;
+    text-align: center;
+    padding: 20px 0px;
+    position: relative;
+}
+
+/* .heading_about::before{
+    content: '';
+    position: absolute;
+    top: 44px;
+    left: 134px;
+    width: 80px;
+    background-color: red;
+    height: 3px;
+    width: 149px;
+
+}
+.heading_about::after{
+    content: '';
+    position: absolute;
+    top: 44px;
+    left: 134px;
+    width: 80px;
+    background-color: red;
+    height: 3px;
+    width: 149px;
+
+} */
+
+  .para_about_details{
+    display: block;
+    color: #0e0f10;
+    font-size: 20px;
+    line-height: 35px;
+    margin-bottom: 0px;
+    max-width: 1000px;
+    margin: auto;
+    text-align: center;
+
+}
+
+/* about{
+   text-align: center; 
+}. */
+
+.about_us_content{
+    margin-top: 50px;
+}
+
+.img_about{
+    width: 100%;
+    height: 380px;
+}
+
+.image-content{
+    width: 100%;
+    height: 100%!important;
+}
+
+.heading_content{
+ font-size: 34px;
+ font-weight: 700;
+ text-align: center;
+ color: rgb(209, 66, 0);
+}
+
